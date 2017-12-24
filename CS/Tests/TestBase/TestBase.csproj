@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="..\..\KalmanFilter.cs" Link="KalmanFilter.cs" />
+    <Compile Include="..\..\LayoutHelper.cs" Link="LayoutHelper.cs" />
+    <Compile Include="..\..\Logger.cs" Link="Logger.cs" />
+    <Compile Include="..\..\ManifestResource.cs" Link="ManifestResource.cs" />
+    <Compile Include="..\..\Point.cs" Link="Point.cs" />
+    <Compile Include="..\..\Profiler.cs" Link="Profiler.cs" />
+    <Compile Include="..\..\Random.cs" Link="Random.cs" />
+    <Compile Include="..\..\Rect.cs" Link="Rect.cs" />
+    <Compile Include="..\..\Size.cs" Link="Size.cs" />
+    <Compile Include="..\..\Storage.cs" Link="Storage.cs" />
+    <Compile Include="..\..\Util.cs" Link="Util.cs" />
+  </ItemGroup>
+
+</Project>
