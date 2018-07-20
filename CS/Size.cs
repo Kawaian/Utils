@@ -41,12 +41,17 @@ namespace Util
         }
 
 #if UTILS_OPENCVSHARP_ENABLED
-
         public OpenCvSharp.Size ToCvSize()
         {
             return new OpenCvSharp.Size((int)Width, (int)Height);
         }
+#endif
 
+#if UTILS_GDI_ENABLED
+        public System.Drawing.Size ToGdiSize()
+        {
+            return new System.Drawing.Size((int)Width, (int)Height);
+        }
 #endif
 
         public Size Clone()
